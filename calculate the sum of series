@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int i;
+    int n;
+    cin>>n;
+    int sum=0;
+    for(int i=1;i<=n;i++){
+        sum += i * i;
+        cout << i << "*" << i<< "="<< sum << endl;
+    }
+    cout<<"the sum or above series :"<< sum << endl;
+    return 0;
+}

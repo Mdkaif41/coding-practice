@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int i;
+    int a;
+    int cub;
+    cin>>a;
+    for(int i=1;i<=a;i++){
+    cub =i * i * i;
+    cout<<"number is:"<<i<<"and the cube:"<<i<<"is:"<<cub<<endl;}
+    return 0;
+}
